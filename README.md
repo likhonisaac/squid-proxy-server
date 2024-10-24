@@ -1,71 +1,64 @@
 # Squid Proxy Server 🦑
 
-A fully automated setup script for a **Squid Proxy Server** that configures Squid to use a specific IP address, enforces basic authentication, and outputs the necessary credentials for connecting.
+<img align="right" width="180" height="180" src="https://raw.githubusercontent.com/wiki/squid-cache/squid/images/squid-mini.png">
 
-## 🚀 Features
-- Installs and configures **Squid** on Ubuntu systems.
-- Sets up **basic authentication** with a username and password.
-- Configures Squid to use a specified **IP address** for outbound traffic.
-- **Logs minimal data** for better performance.
-- Outputs connection details for easy proxy access.
+A powerful and automated setup script for a **high-performance Squid Proxy Server**. This script ensures a secure and optimized proxy server configuration, making it easy to deploy on Ubuntu systems.
 
-## 🔧 Requirements
-- An Ubuntu-based server.
-- Root or `sudo` access.
+[![GitHub License](https://img.shields.io/github/license/likhonisaac/squid-proxy-server?color=brightgreen)](https://github.com/likhonisaac/squid-proxy-server/blob/main/LICENSE)
 
-## 📝 Setup Instructions
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/yourusername/squid-proxy-server.git
-    cd squid-proxy-server
-    ```
+## 🌟 Features
+- **One-click Setup**: Installs and configures Squid on Ubuntu servers.
+- **Secure Authentication**: Enforces basic HTTP authentication.
+- **IP Customization**: Configures Squid to use a custom outbound IP.
+- **Minimal Logging**: Optimized for performance with reduced logging.
+- **Connection Details**: Provides easy-to-use proxy access credentials.
 
-2. Make the script executable:
-    ```bash
-    chmod +x setup_squid_proxy.sh
-    ```
+## 📋 Requirements
+- Ubuntu-based server.
+- Root or `sudo` privileges.
 
-3. Run the setup script:
-    ```bash
-    sudo ./setup_squid_proxy.sh
-    ```
+## 🚀 Setup Instructions
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/squid-proxy-server.git
+   cd squid-proxy-server
+   ```
 
-4. Once the script completes, it will print the details needed to connect to the proxy server.
+2. **Make the Script Executable**:
+   ```bash
+   chmod +x setup_squid_proxy.sh
+   ```
 
-## 👤 Credentials Example
-```
-🌐 Proxy Server: 157.240.22.35
-🔌 Port: 3128
-👤 Username: proxyuser
-🔑 Password: proxypass
-```
+3. **Run the Setup Script**:
+   ```bash
+   sudo ./setup_squid_proxy.sh
+   ```
 
-## 📡 Connecting to the Proxy
-To use the proxy server, configure your device's proxy settings with the provided server IP, port, username, and password.
+4. **Connect to the Proxy**:
+   Once the script finishes, it will display the proxy connection details:
+   ```
+   🌐 Proxy Server: 192.0.2.0
+   🔌 Port: 3128
+   👤 Username: squiduser
+   🔑 Password: squidpass
+   ```
 
-## 🔗 Dev Contact
-For any support or issues, reach out to us on Telegram: [RektDevelopers](https://t.me/RektDevelopers)
-```
+## 📊 Usage Example
 
-### Instructions for Uploading to GitHub:
-1. Create a new repository on GitHub named `squid-proxy-server`.
-2. Add the script `setup_squid_proxy.sh` and the `README.md` file to your repository.
-3. Push it to your GitHub account.
+| Proxy Server Details | Value |
+| -------------------- | ----- |
+| Server IP | 192.0.2.0 |
+| Port | 3128 |
+| Username | squiduser |
+| Password | squidpass |
 
-### Example Commands for Uploading:
-```bash
-# Initialize git repository
-git init
+## 📝 Connecting to the Proxy
+To utilize the proxy server, simply configure your device's proxy settings using the provided IP, port, username, and password.
 
-# Add all files
-git add setup_squid_proxy.sh README.md
+## 🤝 Support and Contact
+For any questions, support, or issues, feel free to reach out to our development team:
+- Telegram: [RektDevelopers](https://t.me/RektDevelopers)
+- Email: [support@rektdevelopers.com](mailto:support@rektdevelopers.com)
 
-# Commit the changes
-git commit -m "Initial commit: Squid Proxy setup script"
-
-# Add remote repository (replace with your GitHub repo URL)
-git remote add origin https://github.com/yourusername/squid-proxy-server.git
-
-# Push to GitHub
-git push -u origin master
-```
+## 🤓 About Squid
+[Squid](http://www.squid-cache.org/) is a caching and forwarding HTTP web proxy. It has a wide variety of uses, including speeding up a web server by caching repeated requests, caching web, DNS and other computer network lookups for a group of people sharing network resources, and aiding security by filtering traffic.
