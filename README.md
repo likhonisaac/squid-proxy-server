@@ -1,6 +1,6 @@
 # Squid Proxy Server 🦑
 
-<img align="right" width="180" height="180" src="https://raw.githubusercontent.com/wiki/squid-cache/squid/images/squid-mini.png">
+<img align="right" width="180" height="180" src="https://github.com/likhonisaac/squid-proxy-server/blob/main/images/8559182.png?raw=true">
 
 A powerful and automated setup script for a **high-performance Squid Proxy Server**. This script ensures a secure and optimized proxy server configuration, making it easy to deploy on Ubuntu systems.
 
