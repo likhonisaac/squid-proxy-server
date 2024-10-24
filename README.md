@@ -16,7 +16,7 @@ A fully automated setup script for a **Squid Proxy Server** that configures Squi
 ## 📝 Setup Instructions
 1. Clone this repository:
     ```bash
-    git clone https://github.com/likhonisaac/squid-proxy-server.git
+    git clone https://github.com/yourusername/squid-proxy-server.git
     cd squid-proxy-server
     ```
 
@@ -30,6 +30,42 @@ A fully automated setup script for a **Squid Proxy Server** that configures Squi
     sudo ./setup_squid_proxy.sh
     ```
 
-Once the script completes, it will print the details needed to connect to the proxy server.
+4. Once the script completes, it will print the details needed to connect to the proxy server.
 
+## 👤 Credentials Example
+```
+🌐 Proxy Server: 157.240.22.35
+🔌 Port: 3128
+👤 Username: proxyuser
+🔑 Password: proxypass
+```
 
+## 📡 Connecting to the Proxy
+To use the proxy server, configure your device's proxy settings with the provided server IP, port, username, and password.
+
+## 🔗 Dev Contact
+For any support or issues, reach out to us on Telegram: [RektDevelopers](https://t.me/RektDevelopers)
+```
+
+### Instructions for Uploading to GitHub:
+1. Create a new repository on GitHub named `squid-proxy-server`.
+2. Add the script `setup_squid_proxy.sh` and the `README.md` file to your repository.
+3. Push it to your GitHub account.
+
+### Example Commands for Uploading:
+```bash
+# Initialize git repository
+git init
+
+# Add all files
+git add setup_squid_proxy.sh README.md
+
+# Commit the changes
+git commit -m "Initial commit: Squid Proxy setup script"
+
+# Add remote repository (replace with your GitHub repo URL)
+git remote add origin https://github.com/yourusername/squid-proxy-server.git
+
+# Push to GitHub
+git push -u origin master
+```
